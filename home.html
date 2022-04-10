@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mengenal javascript</title>
+</head>
+<body>
+    <script>
+        function hitung(ele){
+            var total = document.getElementById('total').value;
+                total = (total ?  parseInt(total) : 0);
+            var harga = 0;
+
+            if (ele.checked){
+                harga = ele.value;
+                total += parseInt(harga);
+            }else{
+                harga = ele.value;
+                if (total > 0)
+                total -= parseInt (harga);
+        }
+        document.getElementById('total'). value = total;
+    }
+    </script>
+    <h1>Daftar menu</h1>
+    <label><input type="checkbox" value="5000" id="menu" onclick="hitung(this);">Ayam Goreng Rp.5.000</label>
+    <label><input type="checkbox" value="500" id="menu" onclick="hitung(this);">tempe Goreng Rp.500</label>
+    <label><input type="checkbox" value="25000" id="menu" onclick="hitung(this);">Telur dadar Rp.25.000</label>
+    <strong>total bayar : <input id="total" type="text"></strong>
+</body>
+</html>
