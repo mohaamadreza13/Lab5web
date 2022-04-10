@@ -2,8 +2,8 @@
 ## Profil
 | # | Biodata |
 | -------- | --- |
-| *Nama* | Muhammad rizky abdillah |
-| *NIM* | 312010368 |
+| *Nama* | Reza Tariki Taser |
+| *NIM* | 312010265 |
 | *Kelas* | TI.20.A.2 |
 | *Mata Kuliah* | Pemrograman Web |
 
